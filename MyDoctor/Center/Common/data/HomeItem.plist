@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>对症找药</string>
+			<key>detail</key>
+			<string>按照疾病查找相关药品</string>
+			<key>imgName</key>
+			<string>IndexIcon01.png</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>虚假药品曝光</string>
+			<key>detail</key>
+			<string>鉴别和举报虚假医疗广告</string>
+			<key>imgName</key>
+			<string>IndexIcon03.png</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>附近药店</string>
+			<key>detail</key>
+			<string>快速定位周边药店</string>
+			<key>imgName</key>
+			<string>IndexIcon02.png</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>扫一扫</string>
+			<key>detail</key>
+			<string>0个药品扫描历史</string>
+			<key>imgName</key>
+			<string>IndexIcon06.png</string>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>服药提醒</string>
+			<key>detail</key>
+			<string>0个服药提醒</string>
+			<key>imgName</key>
+			<string>IndexIcon05.png</string>
+		</dict>
+	</array>
+</array>
+</plist>

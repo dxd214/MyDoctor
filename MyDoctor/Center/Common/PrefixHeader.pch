@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  MyDoctor
+//
+//  Created by wxhl_zy012 on 14-11-28.
+//  Copyright (c) 2014年 www.716.com. All rights reserved.
+//
+
+#ifndef MyDoctor_PrefixHeader_pch
+#define MyDoctor_PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
+#define IS_IPHONE_5 ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
+/*------------第三方框架--------*/
+#import "Common.h"              //宏定义文件
+#import "UIViewExt.h"           //设置frame
+#import "BaseModel.h"           //解析数据
+#import "DataService.h"         //网络请求ios
+#import "AFNetworking.h"        //网络请求
+#import "BaseNavViewController.h"
+#import "CoreDataDBHelper.h"
+//#import "AppKeFuLib.h"
+//#import "ZBarCameraSimulator.h"
+//#import "ZBarReaderView.h"
+#import "BaseViewController.h"
+#import "UIButton+WebCache.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD.h"
+#import "DBHelper.h"   //操作数据库
+//#import "ZBarSDK.h"//二维码
+#endif
